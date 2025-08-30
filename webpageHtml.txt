@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Super Cool Gaming Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body style="background-color : blue ;">
+<div class="container">
+<header>
+<img src="background.jpg" class="background-image" alt="Background Image">
+              <div class="logo">
+                <img src="gaming-logo.png" alt="Gaming Logo">
+                <h1 style="color: Gold;"><b>Super Cool Gaming<b></h1>
+            </div>
+        </header>
+        <main>
+               <center><h1 style="border-style : double; border-color:darkblue; font-family : Reporter;"><i><b>PLAY GAMES</b></i></h1></center>
+            <div class="games">
+                <a href="C:\Users\user\Desktop\total Games\jqery2 shooting game\index2.html" class="game-button">
+                    <img src="game1.jpg" alt="Game 1"><br>
+                    <span><b>Shoot The Alien</b></span>
+                </a>
+                <a href="game5.html" class="game-button">
+                    <img src="game2.jpg" alt="Game 2"><br>
+                    <span><b>Shoot Zombies</b></span>
+                </a>
+                <a href="C:\Users\user\Desktop\total Games\trstgame\trgame.html" class="game-button">
+                    <img src="game3.jpg" alt="Game 3"><br>
+                    <span><b>Shoot Binladen</b></span>
+                </a>
+            </div>
+        </main>
+<footer><br>
+<img src="earth.gif" class="gif">
+<h2><b><i>"SAVE EARTH,SAVE A LIFE,SAVE US ALL"<i><b></h2>
+<hr>
+<a href="#" style="color:yellow;"><center>Home</center></a>
+<br>
+<a href="#" style="color:yellow;"><center>About Website</center></a>
+<br>
+<a href="#" style="color:yellow;"><center>Contact Us</center></a>
+<br>
+</footer>
+<marquee style="background-color:violet;">For any Queries, Please contact : + 91-6362624364 OR mail to <a href="#">srinidhin2403@gmail.com</a> .This website is solely created and designed for the purpose of free gaming and it is a non-profitable website. 
+</marquee>
+    </div>
+</body>
+</html>

@@ -1,0 +1,152 @@
+body{
+	margin: 0px;
+	width: 100vh;
+	height: 100vh;
+	background: url(game-background.png) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.preloader {
+	background: url(loading.png) no-repeat center;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 5;
+}
+
+.gameOver{
+	background: url(gameOver.png) no-repeat center;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 5;
+	cursor: pointer;
+}
+
+.youWin{
+	background: url(youWin.png) no-repeat center;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 5;
+	cursor: pointer;
+}
+
+.gameContainer{
+	display: flex;
+	justify-content:center;
+}
+
+#playerShip{
+	position:absolute;
+	top: 80%;
+	width: 70px;
+	height: 100px;
+	background-size: cover;
+	background: url(player-ship.png) no-repeat center;
+}
+
+.enemyShipsContainer{
+	position: absolute;
+}
+
+#enemyShip1 {
+    margin-left: 0px !important;
+}
+
+.enemyShips{
+	position: relative;
+	top: 20px;
+	width: 80px;
+	height: 100px;
+	float: left;
+	margin-left: 50px;
+	background-size: cover;
+	background: url(enemy-ship.png) no-repeat center;
+}
+
+.weaponShip1{
+	position: absolute;
+    z-index: 1;
+	width: 20px;
+	height: 50px;
+    background-size: cover;
+	background: url(weapon-player.png) no-repeat center;
+	top: 80%;
+}
+
+.weaponEnemyShip1{
+	position: absolute;
+	z-index: 1;
+	width: 20px;
+	height: 50px;
+	background-size: cover;
+	background: url(weapon-enemy.png) no-repeat center;
+}
+
+.life{
+	width: 20px;
+	height: 20px;
+  float: left;
+  margin-left: 5px;
+	background-size: cover;
+	background: url(life.png) no-repeat center;
+}
+
+.lifesContainer{
+	height: 20px;
+	position: absolute;
+	top :95%;
+	left: 20px;
+}
+
+#score{
+	font-family: Courier, sans-serif;
+	font-size: 25px;
+	text-align: right;
+	color: white;
+	font-weight: bold;
+	position: absolute;
+	top: 92%;
+	left: 95%;
+	height: 30px;
+}
+
+.pointReward{
+	position: absolute;
+	z-index: 1;
+	top: 20px;
+	width: 20px;
+	height: 20px;
+	background-size: cover;
+	background: url(point.png) no-repeat center;
+}
+
+.lifeReward{
+	position: absolute;
+	z-index: 1;
+	top: 20px;
+	width: 20px;
+	height: 20px;
+	background-size: cover;
+	background: url(life.png) no-repeat center;
+}
+
+.weaponReward{
+	position: absolute;
+	z-index: 1;
+	top: 20px;
+	width: 20px;
+	height: 20px;
+	background-size: cover;
+	background-color: blue;
+}
